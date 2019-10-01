@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import "../Style/footer.css";
 
 const Footer = () => {
-    return (  
+  return (
     <>
-    <h1>stopka</h1>
+      <h1>stopka</h1>
     </>
-    );
-}
- 
+  );
+};
+
 export default Footer;
