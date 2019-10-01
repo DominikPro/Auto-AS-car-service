@@ -1,6 +1,9 @@
 import React from 'react';
 import './Style/App.css';
 import {BrowserRouter as Router} from 'react-router-dom'
+import Footer from './Leyouts/Footer'
+
+
 
 function App() {
   return (
@@ -9,7 +12,7 @@ function App() {
     <header>Heder</header>
      <h1>Hello World</h1>
 
-     <footer>foooter </footer>
+     <footer><Footer/> </footer>
     </div>
     </Router>
   );
