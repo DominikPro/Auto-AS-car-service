@@ -1,28 +1,30 @@
 import React from "react";
-import "./Style/app.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./Leyouts/Footer";
 import Header from "./Leyouts/Header";
 import Navigation from "./Leyouts/Navigation";
 import Page from "./Leyouts/Page";
+import './css/app.css'
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <navigation>
-          <Navigation />
-        </navigation>
+      <div className="app-wrapper">
+        <nav>
+        <Navigation />
+        </nav>
         <header>
           <Header />
         </header>
+
         <section>
           <Page />
         </section>
 
         <footer>
-          <Footer />{" "}
+          <Footer />
         </footer>
+
       </div>
     </Router>
   );
