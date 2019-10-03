@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/page.css";
+import "../css/maine.css";
 
 const Page = () => {
   return (

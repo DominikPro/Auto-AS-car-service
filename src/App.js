@@ -4,7 +4,7 @@ import Footer from "./Leyouts/Footer";
 import Header from "./Leyouts/Header";
 import Navigation from "./Leyouts/Navigation";
 import Page from "./Leyouts/Page";
-import './css/app.css'
+import './css/maine.css'
 
 function App() {
   return (

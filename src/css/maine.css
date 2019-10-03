@@ -1,3 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.app-wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #222;
+  max-width: 1200px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
 .navigation-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -5,7 +42,7 @@
           flex-direction: row;
   width: 1200px;
   max-width: 1200px;
-  background-color: pink;
+  background-color: lightgrey;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +84,7 @@
 .navigation__link {
   display: block;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 .navigation__link:hover {
@@ -55,4 +92,4 @@
   color: white;
   cursor: pointer;
 }
-/*# sourceMappingURL=navigation.css.map */
+/*# sourceMappingURL=maine.css.map */

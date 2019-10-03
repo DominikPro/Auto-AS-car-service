@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../Style/header.scss"
-    ],
-    "names": [],
-    "file": "header.css"
-}
