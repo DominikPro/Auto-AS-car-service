@@ -3,7 +3,7 @@ import "../css/maine.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header-wrapper">
       <h1>Header</h1>
     </div>
   );

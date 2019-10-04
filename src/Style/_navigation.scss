@@ -24,7 +24,6 @@
     &__item{
         list-style-type: none;
         text-transform: uppercase;
-        
     }
    
     &__link{
@@ -36,6 +35,9 @@
         background-color: black;
         color:white;
         cursor: pointer;
+    }
+    &__link--active{
+        color:yellow;
     }
 }
 

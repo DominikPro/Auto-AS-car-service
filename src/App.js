@@ -1,9 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import Footer from "./Leyouts/Footer";
-import Header from "./Leyouts/Header";
-import Navigation from "./Leyouts/Navigation";
-import Page from "./Leyouts/Page";
+import { BrowserRouter as Router, link, Route } from "react-router-dom";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Navigation from "./Components/Navigation";
+import HomePage from "./Leyouts/HomePage";
+import ContactPage from "./Leyouts/ContactPage"
+import ServicesPage from "./Leyouts/ServicesPage.js"
 import './css/maine.css'
 
 function App() {
@@ -17,9 +19,11 @@ function App() {
           <Header />
         </header>
 
-        <section>
-          <Page />
-        </section>
+        <div className="page-wrapper">
+        <Route path="/" component={HomePage} exact/>
+        <Route path="/contact" component={ContactPage}/>
+        <Route path="/services" component={ServicesPage}/>
+        </div>
 
         <footer>
           <Footer />
