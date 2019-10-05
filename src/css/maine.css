@@ -5,10 +5,6 @@
           box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
 .app-wrapper {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -34,7 +30,24 @@ html {
       flex-basis: 100%;
 }
 
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
 .footer-wrapper {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,6 +55,49 @@ html {
       flex-wrap: wrap;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  width: 1200px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #35498e;
+  padding: 20px 40px;
+  line-height: 2;
+}
+
+.footer-wrapper__hours-information {
+  margin: 0 20px;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+.footer-wrapper__contact-information {
+  margin: 0 20px;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+.footer-wrapper__adress-information {
+  margin: 0 20px;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+.footer-wrapper__author {
+  margin: 0 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: block;
+  text-decoration: none;
+  color: black;
+  opacity: 0.2;
+}
+
+.footer-wrapper__author:hover {
+  opacity: 1;
 }
 
 .header-wrappe {
@@ -72,13 +128,15 @@ code {
           flex-direction: row;
   width: 1200px;
   max-width: 1200px;
-  background-color: lightgrey;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-shadow: 0px 1px 10px -10px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 1px 10px -10px rgba(0, 0, 0, 0.35);
 }
 
 .logo {
@@ -88,6 +146,15 @@ code {
   -webkit-box-flex: 4;
       -ms-flex-positive: 4;
           flex-grow: 4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__text {
+  font-size: 2rem;
+  margin-left: 35px;
+  font-family: "Roboto Slab", serif;
 }
 
 .navigation {
@@ -109,6 +176,7 @@ code {
 .navigation__item {
   list-style-type: none;
   text-transform: uppercase;
+  padding: 30px 15px;
 }
 
 .navigation__link {
@@ -118,13 +186,14 @@ code {
 }
 
 .navigation__link:hover {
-  background-color: black;
-  color: white;
+  background-color: #35498e;
+  color: #ff9800;
   cursor: pointer;
 }
 
 .navigation__link--active {
-  color: yellow;
+  background-color: #35498e;
+  color: #ff9800;
 }
 
 .titleHomPage {

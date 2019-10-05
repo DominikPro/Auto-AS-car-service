@@ -1,5 +1,39 @@
-.footer-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 100%;
+.footer-wrapper {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  width: 1200px;
+  align-items: flex-start;
+  background-color: $maine-color;
+  padding: 20px 40px;
+  line-height: 2;
+
+  &__hours-information {
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 5;
+  }
+  &__contact-information {
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 5;
+  }
+  &__adress-information {
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 5;
+  }
+  &__author {
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 1;
+    display: block;
+    text-decoration: none;
+    color: black;
+    opacity: 0.2;
+  }
+  &__author:hover {
+    opacity: 1;
+  }
 }

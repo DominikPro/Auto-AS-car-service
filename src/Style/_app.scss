@@ -1,25 +1,21 @@
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 $maineFontColor: rgb(29, 28, 28);
 
-html {
-   font-size: 10px; 
-}
-.app-wrapper{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    background-color: #222;
-    max-width: 1200px;
+.app-wrapper {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #222;
+  max-width: 1200px;
 }
 
-.page-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 100%;
+.page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
 }
