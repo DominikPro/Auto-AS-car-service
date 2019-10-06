@@ -1,12 +1,13 @@
 .footer-wrapper {
+  align-self: flex-end;
   color: white;
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  width: 1200px;
+  width: $maine-page-width;
   align-items: flex-start;
   background-color: $maine-color;
-  padding: 20px 40px;
+  padding: 20px 200px;
   line-height: 2;
 
   &__hours-information {
@@ -24,6 +25,9 @@
     margin: 0 20px;
     flex-grow: 5;
   }
+  &__contact-information i {
+    margin-right: 8px;
+  }
   &__author {
     // line-height: 1.5;
     margin: 0 20px;
@@ -32,6 +36,7 @@
     text-decoration: none;
     color: black;
     opacity: 0.2;
+    align-self: center;
   }
   &__author:hover {
     opacity: 1;

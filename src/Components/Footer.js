@@ -13,8 +13,12 @@ const Footer = () => {
       </div>
       <div className="footer-wrapper__contact-information">
         <h2>Kontakt:</h2>
-        <p>Tel: 500-000-00</p>
-        <p>e-mail: auto@serwis.com</p>
+        <p>
+          <i class="fas fa-phone-alt"></i>Tel: 500-000-00
+        </p>
+        <p>
+          <i class="far fa-envelope"></i>e-mail: auto@serwis.com
+        </p>
 
         <p></p>
       </div>

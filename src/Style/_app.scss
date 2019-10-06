@@ -3,19 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-$maineFontColor: rgb(29, 28, 28);
 
 .app-wrapper {
+  background-color: maine-backGround-color;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  background-color: #222;
-  max-width: 1200px;
+  max-width: maine-page-width;
+  height: 100vh;
 }
 
-.page-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-}
+// .page-wrapper {
+//   // height: 100%;
+//   display: flex;
+//   flex-wrap: wrap;
+//   flex-basis: 100%;
+// }

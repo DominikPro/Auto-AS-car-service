@@ -4,6 +4,7 @@ $maine-page-width: 100vw;
 //colors
 $maine-color: #35498e;
 $maine-color-orange: #ff9800;
+$maine-backGround-color: white;
 
 // fonts
 $maine-font: "Quicksand', sans-serif";
@@ -14,10 +15,11 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
+
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 p {
