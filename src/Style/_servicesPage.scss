@@ -1,4 +1,50 @@
-.ServicesPage{
-    background-color: red;
-    min-height: 350px;
+.services-page-wrapper {
+  width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+.product-box {
+  margin: 50px 40px;
+  flex-wrap: wrap;
+  display: flex;
+  height: 500px;
+  max-width: 300px;
+  border: solid 2px black;
+  justify-content: center;
+  align-items: center;
+
+  &__img {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+  &__description {
+    padding: 15px;
+  }
+  &__button {
+    background-color: rgb(100, 189, 100);
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #ff9800;
+    background-color: #35498e;
+  }
+  &__button:hover {
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #358e35;
+  }
+}
+
+// .navigation__link:hover {
+//   background-color: #35498e;
+//   color: #ff9800;
+//   -webkit-transition: 0.4s;
+//   transition: 0.4s;
+//   cursor: pointer;
+// }
