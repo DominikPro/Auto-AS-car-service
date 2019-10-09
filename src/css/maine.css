@@ -25,16 +25,16 @@ html {
   font-size: 10px;
 }
 
-h1 {
-  font-size: 5rem;
+h2 {
+  font-size: 2.6rem;
 }
 
-h2 {
-  font-size: 3rem;
+h3 {
+  font-size: 2.1rem;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .footer-wrapper {
@@ -136,9 +136,8 @@ code {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-shadow: 0px 1px 10px -10px rgba(0, 0, 0, 0.35);
-          box-shadow: 0px 1px 10px -10px rgba(0, 0, 0, 0.35);
   border-bottom: solid 0.5px #ff9800;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -154,10 +153,10 @@ code {
   margin-left: 50px;
 }
 
-.logo__text {
-  font-size: 2rem;
+.logo__motto {
+  font-size: 1srem;
+  color: #35498e;
   margin-left: 35px;
-  font-family: "Roboto Slab", serif;
 }
 
 .navigation {
@@ -223,6 +222,7 @@ code {
 }
 
 .titleHomPage {
+  font-size: 3rem;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1000;
   position: absolute;
@@ -244,6 +244,7 @@ code {
 }
 
 .services-page-wrapper {
+  padding: 5px 100px;
   width: 1600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,41 +255,102 @@ code {
       justify-content: space-around;
 }
 
-.product-box {
-  margin: 50px 40px;
+.title-box {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 500px;
-  max-width: 300px;
+  width: 80vw;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title-box__maine-title {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #35498e;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.title-box__maine-title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 220px;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  border-top: #ff9800 solid 2px;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title-box__subtitle {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.product-box:hover {
+  -webkit-box-shadow: 8px 2px 34px -1px rgba(0, 0, 0, 0.27);
+          box-shadow: 8px 2px 34px -1px rgba(0, 0, 0, 0.27);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  border: solid 2px #35498e;
+}
+
+.product-box {
+  margin: 30px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 400px;
   border: solid 2px black;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 50px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
-.product-box__img {
-  height: 150px;
-  width: 150px;
-  margin: 10px;
+.product-box__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .product-box__description {
+  text-align: center;
+  display: block;
   padding: 15px;
 }
 
 .product-box__button {
+  margin-top: 10px;
+  font-size: 1.7rem;
   background-color: #64bd64;
   border-radius: 5px;
   display: block;
   text-decoration: none;
-  padding: 5px 15px;
-  color: #ff9800;
+  padding: 10px 25px;
+  color: white;
   background-color: #35498e;
 }
 
@@ -296,7 +358,30 @@ code {
   border-radius: 5px;
   display: block;
   text-decoration: none;
-  padding: 5px 15px;
   background-color: #358e35;
+}
+
+.icon {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  margin: 0px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  display: block;
+  font-size: 3rem;
+  background-color: #ff9800;
+  border-radius: 50%;
+}
+
+.icon__i {
+  line-height: 100%;
+  margin-top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  text-align: center;
 }
 /*# sourceMappingURL=maine.css.map */

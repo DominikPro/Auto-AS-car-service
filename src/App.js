@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+// import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
 import HomePage from "./Leyouts/HomePage";
 import ContactPage from "./Leyouts/ContactPage";

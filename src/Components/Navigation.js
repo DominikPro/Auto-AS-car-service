@@ -13,8 +13,7 @@ const Navigation = () => {
     <div className="navigation-wrapper">
       <div className="logo">
         <img src={logoImg} alt="logo firmy" width="150px" />
-
-        <h1 className="logo__text">Serwis samochodów osobowy i dostawczych</h1>
+        <h1 className="logo__motto">Serwis samochodów osobowy i dostawczych</h1>
       </div>
       <ul className="navigation">
         <li className="navigation__item">
