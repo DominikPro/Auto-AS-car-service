@@ -27,8 +27,8 @@
     position: absolute;
     display: block;
     width: 220px;
-    height: 150px;
-    bottom: 0;
+    height: 0px;
+    bottom: -20px;
     left: 0;
     border-top: $maine-color-orange solid 2px;
     right: 0;
@@ -37,7 +37,7 @@
   }
 
   &__subtitle {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 50px;
   }
 }

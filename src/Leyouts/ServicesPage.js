@@ -5,7 +5,7 @@ const ServicesPage = () => {
   return (
     <div className="services-page-wrapper">
       <div className="title-box">
-        <h1 className="title-box__maine-title">
+        <h1 className="title-box__maine-title animated flipInX delay-0.7s">
           Usługi które śwaidczymy dla was już od 10 lat!
         </h1>
         <h3 className="title-box__subtitle">
@@ -16,7 +16,7 @@ const ServicesPage = () => {
         </h3>
       </div>
 
-      <div className="product-box">
+      <div className="product-box  ">
         <div className="icon">
           <i className="fas fa-car-alt icon__i"></i>
         </div>

@@ -11,7 +11,7 @@ import "./css/maine.css";
 function App() {
   return (
     <Router>
-      <div className="app-wrapper">
+      <div className="app-wrapper  	">
         <Navigation />
 
         {/* <header>
