@@ -6,7 +6,7 @@ const ServicesPage = () => {
     <div className="services-page-wrapper">
       <div className="title-box">
         <h1 className="title-box__maine-title animated flipInX delay-0.7s">
-          Usługi które śwaidczymy dla was już od 10 lat!
+          Usługi które dla was świadczymy od 10 lat!
         </h1>
         <h3 className="title-box__subtitle">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis

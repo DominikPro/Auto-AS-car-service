@@ -1,4 +1,57 @@
-.contactPage {
-  min-height: 350px;
-  background-color: cadetblue;
+.wraper-contact-page {
+  max-width: 100vw;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.contact-title-box {
+  height: 100px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+
+  &__maine-title {
+    font-size: 3rem;
+    display: flex;
+    color: $maine-color;
+    margin-bottom: 20px;
+  }
+  &__maine-title::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 0px;
+    top: 50px;
+    bottom: -20px;
+    left: 0;
+    border-top: $maine-color-orange solid 2px;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.map {
+  flex-grow: 2;
+  border: solid 2px black;
+  height: 400px;
+  width: 600px;
+  margin: 0 50px;
+}
+
+.information {
+  border: solid black 2px;
+  height: 400px;
+  flex-grow: 2;
+  &__title {
+    color: $maine-color;
+    font-size: 3rem;
+  }
 }

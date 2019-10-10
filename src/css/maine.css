@@ -34,7 +34,7 @@ h3 {
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 .footer-wrapper {
@@ -98,6 +98,10 @@ p {
 
 .footer-wrapper__author:hover {
   opacity: 1;
+}
+
+.footer-wrapper .footer-group-name {
+  color: #ff9800;
 }
 
 .header-wrappe {
@@ -238,9 +242,80 @@ code {
   color: white;
 }
 
-.contactPage {
-  min-height: 350px;
-  background-color: cadetblue;
+.wraper-contact-page {
+  max-width: 100vw;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact-title-box {
+  height: 100px;
+  margin-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-title-box__maine-title {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #35498e;
+  margin-bottom: 20px;
+}
+
+.contact-title-box__maine-title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 220px;
+  height: 0px;
+  top: 50px;
+  bottom: -20px;
+  left: 0;
+  border-top: #ff9800 solid 2px;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.map {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: solid 2px black;
+  height: 400px;
+  width: 600px;
+  margin: 0 50px;
+}
+
+.information {
+  border: solid black 2px;
+  height: 400px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.information__title {
+  color: #35498e;
+  font-size: 3rem;
 }
 
 .services-page-wrapper {
