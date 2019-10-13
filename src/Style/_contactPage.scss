@@ -5,7 +5,8 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .contact-title-box {
@@ -35,23 +36,32 @@
     right: 0;
     text-align: center;
     margin: 0 auto;
+    align-items: center;
   }
 }
 
 .map {
-  flex-grow: 2;
+  flex-grow: 3;
   border: solid 2px black;
-  height: 400px;
-  width: 600px;
   margin: 0 50px;
 }
 
 .information {
+  align-content: center;
   border: solid black 2px;
   height: 400px;
-  flex-grow: 2;
+  width: 100px;
+
+  flex-grow: 1;
   &__title {
+    display: flex;
+    justify-content: center;
     color: $maine-color;
     font-size: 3rem;
+  }
+  &__subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }

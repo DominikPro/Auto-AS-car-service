@@ -23,11 +23,18 @@
   z-index: 1000;
   position: absolute;
   left: 140px;
-  top: 150px;
+  top: 120px;
   display: block;
   color: $maine-color-orange;
   padding: 20px 50px;
   border-radius: 5px;
+  width: 800px;
+
+  &__subtitel {
+    color: $basic-color;
+    display: block;
+    margin-top: 15px;
+  }
 }
 .titleHomPage h2 {
   color: white;
