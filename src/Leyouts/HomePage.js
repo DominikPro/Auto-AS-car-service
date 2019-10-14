@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/maine.css";
+import logoFordPng from "../img/logoFordPng.png";
 
 const HomePage = () => {
   return (
@@ -8,14 +9,18 @@ const HomePage = () => {
 
       <div className="titleHomPage  animated fadeInLeftBig delay-0.95s">
         <h1>Nasza specjalizacja</h1>
-        <h2>Ford</h2>
-        <h2>Renault</h2>
+        <img
+          className="titleHomPage__logoFord"
+          src={logoFordPng}
+          alt="logo firmy ford"
+          width="160px"
+        />
+        {/* <h2>Renault</h2> */}
         <h3 className="titleHomPage__subtitel">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          saepe a ipsum. Assumenda maxime atque inventore eius ab, quam tenetur
-          praesentium voluptatibus corporis quis illo voluptatem quibusdam,
-          consequuntur dolores laborum.
+          "Samochodu nie można traktować jak żyjącej istoty. Samochód potrzebuje
+          miłości." - Walter Röhrl
         </h3>
+        <h2></h2>
       </div>
     </div>
   );

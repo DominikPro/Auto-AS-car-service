@@ -19,7 +19,7 @@
 
 .titleHomPage {
   font-size: 3rem;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1000;
   position: absolute;
   left: 140px;
@@ -29,8 +29,15 @@
   padding: 20px 50px;
   border-radius: 5px;
   width: 800px;
+  &__logoFord {
+    display: flex;
+    margin-left: 80px;
+  }
 
   &__subtitel {
+    letter-spacing: 2px;
+    line-height: 2;
+    font-family: $quote-font;
     color: $basic-color;
     display: block;
     margin-top: 15px;

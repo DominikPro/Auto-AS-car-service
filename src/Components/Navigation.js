@@ -12,7 +12,10 @@ const Navigation = () => {
   return (
     <div className="navigation-wrapper">
       <div className="logo animated flipInX delay-0.9s">
-        <img src={logoImg} alt="logo firmy" width="150px" />
+        <NavLink to="/" exact>
+          <img src={logoImg} alt="logo firmy" width="150px" />
+        </NavLink>
+
         <h1 className="logo__motto">Serwis samochodów osobowy i dostawczych</h1>
       </div>
       <ul className="navigation ">
