@@ -44,6 +44,19 @@
   flex-grow: 3;
   border: solid 2px black;
   margin: 0 50px;
+  &__text {
+  }
+  &__marker {
+    font-size: 1.6rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: (5px 5px);
+    display: block;
+    color: $maine-color-orange;
+    width: 60px;
+    line-height: 100%;
+    background-color: $maine-color;
+  }
 }
 
 .information {

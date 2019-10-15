@@ -14,10 +14,10 @@ const Footer = () => {
       <div className="footer-wrapper__contact-information">
         <h2 className="footer-group-name">Kontakt:</h2>
         <p>
-          <i class="fas fa-phone-alt"></i>Tel: 500-000-00
+          <i className="fas fa-phone-alt"></i>Tel: 500-000-00
         </p>
         <p>
-          <i class="far fa-envelope"></i>e-mail: auto@serwis.com
+          <i className="far fa-envelope"></i>e-mail: auto@serwis.com
         </p>
 
         <p></p>

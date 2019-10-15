@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/maine.css";
 import Footer from "../Components/Footer";
+import Maps from "../Components/Maps";
 
 const ContactPage = () => {
   return (
@@ -12,7 +13,7 @@ const ContactPage = () => {
           </h1>
         </div>
 
-        <div className="map" id="map"></div>
+        <Maps />
         <div className="information">
           <h1 className="information__title ">Informajce o nas</h1>
           <h3 className="information__subtitle">

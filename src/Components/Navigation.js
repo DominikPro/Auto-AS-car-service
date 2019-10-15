@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Link,
-  NavLink,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import "../css/maine.css";
 import logoImg from "../img/logo.jpg";
 

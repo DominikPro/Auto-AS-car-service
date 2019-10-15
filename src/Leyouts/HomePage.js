@@ -20,7 +20,6 @@ const HomePage = () => {
           "Samochodu nie można traktować jak żyjącej istoty. Samochód potrzebuje
           miłości." - Walter Röhrl
         </h3>
-        <h2></h2>
       </div>
     </div>
   );
