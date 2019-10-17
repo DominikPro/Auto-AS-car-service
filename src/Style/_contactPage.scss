@@ -44,8 +44,7 @@
   flex-grow: 3;
   border: solid 2px black;
   margin: 0 50px;
-  &__text {
-  }
+
   &__marker {
     font-size: 1.6rem;
     border-radius: 5px;
@@ -67,14 +66,53 @@
 
   flex-grow: 1;
   &__title {
+    margin-top: 12px;
     display: flex;
     justify-content: center;
     color: $maine-color;
     font-size: 3rem;
   }
   &__subtitle {
+    margin-top: 12px;
     display: flex;
     justify-content: center;
-    text-align: center;
+  }
+}
+.phone-button {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding: 25px 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  color: $basic-color;
+  background-color: $maine-color-green;
+  text-transform: uppercase;
+
+  &__icon {
+    display: flex;
+    flex-grow: 1;
+    margin: 0px 15px;
+  }
+  &__information-on-button {
+    display: flex;
+    flex-grow: 3;
+    text-transform: uppercase;
+  }
+}
+.phone-number {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding: 10px 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 2rem;
+
+  &__icon {
+    display: flex;
+    margin: 0px 15px;
   }
 }

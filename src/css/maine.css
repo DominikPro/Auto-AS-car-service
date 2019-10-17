@@ -206,6 +206,10 @@ code {
   color: #ff9800;
 }
 
+.navLink {
+  text-decoration: none;
+}
+
 .home-page-wraper {
   position: relative;
   height: 80%;
@@ -255,8 +259,31 @@ code {
   margin-top: 15px;
 }
 
-.titleHomPage h2 {
+.titleHomPage__button-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 5px 15px 480px;
+  font-size: 2.2rem;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  padding: 20px 40px;
   color: white;
+  background-color: #358e35;
+  border: none;
+  text-transform: uppercase;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.titleHomPage__button-call:hover {
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  color: #ff9800;
+  background-color: #35498e;
+  cursor: pointer;
 }
 
 .wraper-contact-page {
@@ -346,6 +373,7 @@ code {
 }
 
 .information__title {
+  margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,13 +385,72 @@ code {
 }
 
 .information__subtitle {
+  margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+}
+
+.phone-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  padding: 25px 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #358e35;
+  text-transform: uppercase;
+}
+
+.phone-button__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 15px;
+}
+
+.phone-button__information-on-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  text-transform: uppercase;
+}
+
+.phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  padding: 10px 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.phone-number__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 15px;
 }
 
 .services-page-wrapper {

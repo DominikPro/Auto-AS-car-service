@@ -42,7 +42,31 @@
     display: block;
     margin-top: 15px;
   }
+  &__button-call {
+    display: flex;
+    margin: 40px 5px 15px 480px;
+    font-size: 2.2rem;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: $basic-color;
+    background-color: $maine-color-green;
+    border: none;
+    text-transform: uppercase;
+    animation-delay: 4s;
+  }
+
+  &__button-call:hover {
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    color: $maine-color-orange;
+    background-color: $maine-color;
+
+    cursor: pointer;
+  }
 }
-.titleHomPage h2 {
-  color: white;
-}
+// .titleHomPage h2 {
+//   color: white;
+// }

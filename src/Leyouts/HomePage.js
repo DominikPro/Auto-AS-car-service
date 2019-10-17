@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/maine.css";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import logoFordPng from "../img/logoFordPng.png";
 
 const HomePage = () => {
@@ -15,11 +16,15 @@ const HomePage = () => {
           alt="logo firmy ford"
           width="160px"
         />
-        {/* <h2>Renault</h2> */}
         <h3 className="titleHomPage__subtitel">
           "Samochodu nie można traktować jak żyjącej istoty. Samochód potrzebuje
           miłości." - Walter Röhrl
         </h3>
+        <NavLink className="navLink" to="/contact">
+          <button className=" animated rubberBand titleHomPage__button-call">
+            <p>Umów wizytę</p>
+          </button>
+        </NavLink>
       </div>
     </div>
   );

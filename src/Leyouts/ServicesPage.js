@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import "../css/maine.css";
 
 const ServicesPage = () => {
@@ -28,7 +29,9 @@ const ServicesPage = () => {
           Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
           sint ab.
         </p>
-        <button className="product-box__button">Umów wizytę</button>
+        <NavLink className="navLink" to="/contact">
+          <button className="product-box__button">Umów wizytę</button>
+        </NavLink>
       </div>
 
       <div className="product-box">
@@ -42,7 +45,9 @@ const ServicesPage = () => {
           Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
           sint ab.
         </p>
-        <button className="product-box__button">Umów wizytę</button>
+        <NavLink className="navLink" to="/contact">
+          <button className="product-box__button">Umów wizytę</button>
+        </NavLink>
       </div>
 
       <div className="product-box">
@@ -56,7 +61,9 @@ const ServicesPage = () => {
           Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
           sint ab.
         </p>
-        <button className="product-box__button">Umów wizytę</button>
+        <NavLink className="navLink" to="/contact">
+          <button className="product-box__button">Umów wizytę</button>
+        </NavLink>
       </div>
 
       <div className="product-box">
@@ -70,7 +77,9 @@ const ServicesPage = () => {
           Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
           sint ab.
         </p>
-        <button className="product-box__button">Umów wizytę</button>
+        <NavLink className="navLink" to="/contact">
+          <button className="product-box__button">Umów wizytę</button>
+        </NavLink>
       </div>
       <div className="product-box">
         <div className="icon">
@@ -83,7 +92,9 @@ const ServicesPage = () => {
           Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
           sint ab.
         </p>
-        <button className="product-box__button">Umów wizytę</button>
+        <NavLink className="navLink" to="/contact">
+          <button className="product-box__button">Umów wizytę</button>
+        </NavLink>
       </div>
 
       <div className="product-box">
@@ -97,7 +108,9 @@ const ServicesPage = () => {
           Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
           sint ab.
         </p>
-        <button className="product-box__button">Umów wizytę</button>
+        <NavLink className="navLink" to="/contact">
+          <button className="product-box__button">Umów wizytę</button>
+        </NavLink>
       </div>
     </div>
   );
