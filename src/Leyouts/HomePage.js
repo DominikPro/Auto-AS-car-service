@@ -9,7 +9,9 @@ const HomePage = () => {
       <div className="home-page-wraper__shadow-bacground"></div>
 
       <div className="titleHomPage  animated fadeInLeftBig delay-0.95s">
-        <h1>Nasza specjalizacja</h1>
+        <h1 className="titleHomPage__maine-title-home-page">
+          Nasza specjalizacja
+        </h1>
         <img
           className="titleHomPage__logoFord"
           src={logoFordPng}
@@ -21,7 +23,7 @@ const HomePage = () => {
           miłości." - Walter Röhrl
         </h3>
         <NavLink className="navLink" to="/contact">
-          <button className=" animated rubberBand titleHomPage__button-call">
+          <button className=" animated r titleHomPage__button-call">
             <p>Umów wizytę</p>
           </button>
         </NavLink>

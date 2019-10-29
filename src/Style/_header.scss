@@ -1,6 +1,7 @@
-.header-wrappe{
+.header-wrappe {
+  @media (min-width: 1280px) {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
-
+  }
 }

@@ -7,14 +7,11 @@ const ServicesPage = () => {
     <div className="services-page-wrapper">
       <div className="title-box">
         <h1 className="title-box__maine-title animated flipInX delay-0.7s">
-          Usługi które dla was świadczymy od 10 lat!
+          Usługi świadczymy już od ponad 10 lat!
         </h1>
-        <h3 className="title-box__subtitle">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
-          quibusdam sint accusamus magni debitis quasi voluptatum soluta
-          deserunt iste, et deleniti hic reiciendis dignissimos impedit alias
-          necessitatibus enim tempora sequi?
-        </h3>
+        <h4 className="title-box__subtitle">
+        Jesteśmy profesjonalnym warsztatem samochodowym. Zajmujemy się diagnostyką       i serwisowaniem samochodów osobowych i dostawczych wszystkich marek. Nasi mechanicy to profesjonaliści, z wieloletnim doświadczeniem zawodowym w branży motoryzacyjnej.   Zapewniamy najwyższą jakość usług, ponieważ podczas diagnostyki i naprawy samochodów wykorzystujemy specjalistyczny  sprzęt oraz nowoczesne narzędzia diagnostyczne.
+        </h4>
       </div>
 
       <div className="product-box  ">

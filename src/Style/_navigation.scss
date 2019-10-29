@@ -6,7 +6,7 @@
   background-color: white;
   display: flex;
   justify-content: flex-start;
-  // box-shadow: 3px 1px 10px -10px rgba(0, 0, 0, 0.35);
+  // box-shadow: 3px 1px 10px -10px rgba(0, 0, 0, 0.35); WR
   border-bottom: solid 0.5px $maine-color-orange;
   margin-bottom: 10px;
 }
@@ -17,9 +17,12 @@
   margin-left: 50px;
 
   &__motto {
-    font-size: 1srem;
+    display: flex;
     color: $maine-color;
     margin-left: 35px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 }
 
@@ -30,6 +33,9 @@
   font-size: 2rem;
   flex-grow: 1;
   margin-right: 80px;
+  @media (max-width: 800px) {
+    margin-right: 20px;
+  }
 
   &__item {
     list-style-type: none;

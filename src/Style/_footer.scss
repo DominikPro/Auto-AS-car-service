@@ -1,42 +1,53 @@
 .footer-wrapper {
-  align-self: flex-end;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-  width: $maine-page-width;
-  align-items: flex-start;
-  background-color: $maine-color;
-  padding: 20px 200px;
-  line-height: 2;
-
+  @media (min-width: 1280px) {
+    align-self: flex-end;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: $maine-page-width;
+    align-items: flex-start;
+    background-color: $maine-color;
+    padding: 20px 200px;
+    line-height: 2;
+  }
   &__hours-information {
-    // line-height: 1.5;
-    margin: 0 20px;
-    flex-grow: 5;
+    @media (min-width: 1280px) {
+      // line-height: 1.5;
+      margin: 0 20px;
+      flex-grow: 5;
+    }
   }
   &__contact-information {
-    // line-height: 1.5;
-    margin: 0 20px;
-    flex-grow: 5;
+    @media (min-width: 1280px) {
+      // line-height: 1.5;
+      margin: 0 20px;
+      flex-grow: 5;
+    }
   }
   &__adress-information {
-    // line-height: 1.5;
-    margin: 0 20px;
-    flex-grow: 5;
+    @media (min-width: 1280px) {
+      // line-height: 1.5;
+      margin: 0 20px;
+      flex-grow: 5;
+    }
   }
   &__contact-information i {
-    margin-right: 8px;
+    @media (min-width: 1280px) {
+      margin-right: 8px;
+    }
   }
   &__author {
-    // line-height: 1.5;
-    margin: 0 20px;
-    flex-grow: 1;
-    display: block;
-    text-decoration: none;
-    color: black;
-    opacity: 0.2;
-    align-self: center;
+    @media (min-width: 1280px) {
+      // line-height: 1.5;
+      margin: 0 20px;
+      flex-grow: 1;
+      display: block;
+      text-decoration: none;
+      color: black;
+      opacity: 0.2;
+      align-self: center;
+    }
   }
   &__author:hover {
     opacity: 1;
