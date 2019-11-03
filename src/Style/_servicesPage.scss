@@ -1,5 +1,5 @@
 .services-page-wrapper {
-  padding: 5px 100px;
+  padding: 5px 70px;
   width: 1600px;
   display: flex;
   flex-wrap: wrap;
@@ -7,8 +7,7 @@
 }
 .title-box {
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 10px;
   flex-wrap: wrap;
   display: flex;
   width: 80vw;
@@ -19,7 +18,7 @@
     font-size: 3rem;
     display: flex;
     color: $maine-color;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 50px;
   }
   &__maine-title::before {
@@ -113,3 +112,29 @@
 //   transition: 0.4s;
 //   cursor: pointer;
 // }
+@media (max-width: 360.99px) {
+  .services-page-wrapper {
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 640.99px) {
+  .services-page-wrapper {
+    padding: 5px 25px;
+  }
+}
+
+@media (max-width: 800.99px) {
+  .services-page-wrapper {
+    padding: 5px 30px;
+  }
+}
+@media (max-width: 1024.99px) {
+  .services-page-wrapper {
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 1280.99px) {
+  .services-page-wrapper {
+    padding: 5px 20px;
+  }
+}

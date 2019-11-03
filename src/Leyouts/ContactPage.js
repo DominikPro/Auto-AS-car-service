@@ -12,7 +12,6 @@ const ContactPage = () => {
             Informajce o nas
           </h1>
         </div>
-
         <Maps />
         <div className="information">
           <h1 className="information__title ">Umów wizytę</h1>

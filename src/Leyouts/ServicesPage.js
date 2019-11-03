@@ -10,7 +10,13 @@ const ServicesPage = () => {
           Usługi świadczymy już od ponad 10 lat!
         </h1>
         <h4 className="title-box__subtitle">
-        Jesteśmy profesjonalnym warsztatem samochodowym. Zajmujemy się diagnostyką       i serwisowaniem samochodów osobowych i dostawczych wszystkich marek. Nasi mechanicy to profesjonaliści, z wieloletnim doświadczeniem zawodowym w branży motoryzacyjnej.   Zapewniamy najwyższą jakość usług, ponieważ podczas diagnostyki i naprawy samochodów wykorzystujemy specjalistyczny  sprzęt oraz nowoczesne narzędzia diagnostyczne.
+          Jesteśmy profesjonalnym warsztatem samochodowym. Zajmujemy się
+          diagnostyką i serwisowaniem samochodów osobowych i dostawczych
+          wszystkich marek. Nasi mechanicy to profesjonaliści, z wieloletnim
+          doświadczeniem zawodowym w branży motoryzacyjnej. Zapewniamy najwyższą
+          jakość usług, ponieważ podczas diagnostyki i naprawy samochodów
+          wykorzystujemy specjalistyczny sprzęt oraz nowoczesne narzędzia
+          diagnostyczne.
         </h4>
       </div>
 

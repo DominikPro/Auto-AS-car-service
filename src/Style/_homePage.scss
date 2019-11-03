@@ -14,11 +14,18 @@
   //   background-color: rgb(0, 0, 0);
   // }
 }
+.logo-motto-home-page {
+  width: 100%;
+  text-align: center;
+  color: $maine-color;
+  margin: 20px 10px;
+  font-size: 2.5rem;
+}
 
 .titleHomPage {
   font-size: 3rem;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 1000;
+  z-index: 10;
   position: absolute;
   left: 140px;
   top: 80px;
@@ -28,43 +35,13 @@
   border-radius: 5px;
   width: 800px;
 
-  @media (min-width: 1400px) {
-    left: 240px;
-    top: 100px;
-  }
-  @media (max-width: 1024px) {
-    width: 100%;
-    left: 0;
-  }
-  @media (max-width: 800px) {
-    width: 100%;
-    left: 0;
-  }
-  @media (max-width: 640.99px) {
-    width: 100%;
-  }
-
-  @media (max-width: 360px) {
-    width: 100%;
-    top: 40px;
-    left: 0;
-    margin: 0px auto 0px auto;
-  }
-
   &__maine-title-home-page {
     font-size: 5rem;
     text-align: center;
-    @media (max-width: 360px) {
-      font-size: 3rem;
-      text-align: center;
-    }
   }
   &__logoFord {
     display: flex;
     margin: 0 auto;
-    @media (max-width: 360px) {
-      margin: 0 auto;
-    }
   }
 
   &__subtitel {
@@ -88,18 +65,6 @@
     border: none;
     text-transform: uppercase;
     animation-delay: 4s;
-    @media (max-width: 360px) {
-      margin: 50px auto 10px auto;
-    }
-    @media (max-width: 640.99px) {
-      margin: 25px auto;
-    }
-    @media (max-width: 800.99px) {
-      margin: 25px auto;
-    }
-    @media (max-width: 1024.99px) {
-      margin: 25px auto;
-    }
   }
 
   &__button-call:hover {
@@ -111,3 +76,64 @@
     cursor: pointer;
   }
 }
+@media (max-width: 360.99px) {
+  .titleHomPage {
+    width: 100%;
+    top: 0px;
+    left: 0;
+    margin: 0px auto 0px auto;
+  }
+  .titleHomPage__maine-title-home-page {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .titleHomPage__logoFord {
+    margin: 0 auto;
+  }
+  .titleHomPage__button-call {
+    margin: 50px auto 10px auto;
+  }
+}
+@media (max-width: 640.99px) {
+  .titleHomPage {
+    width: 100%;
+  }
+  .titleHomPage__button-call {
+    margin: 25px auto;
+  }
+}
+@media (max-width: 800.99px) {
+  .titleHomPage {
+    width: 100%;
+    left: 0;
+  }
+  .titleHomPage__button-call {
+    margin: 25px auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-motto-home-page {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .titleHomPage {
+    width: 100%;
+    left: 0;
+  }
+  .titleHomPage__button-call {
+    margin: 25px auto;
+  }
+}
+
+// @media (max-width: 1280.99px) {
+// }
+@media (min-width: 1400px) {
+  .titleHomPage {
+    left: 240px;
+    top: 100px;
+  }
+}
+// @media (max-width: 1600.99px) {
+// }

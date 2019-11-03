@@ -1,53 +1,40 @@
 .footer-wrapper {
-  @media (min-width: 1280px) {
-    align-self: flex-end;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    width: $maine-page-width;
-    align-items: flex-start;
-    background-color: $maine-color;
-    padding: 20px 200px;
-    line-height: 2;
-  }
+  align-self: flex-end;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  width: $maine-page-width;
+  align-items: flex-start;
+  background-color: $maine-color;
+  padding: 20px 100px;
+  line-height: 2;
+
   &__hours-information {
-    @media (min-width: 1280px) {
-      // line-height: 1.5;
-      margin: 0 20px;
-      flex-grow: 5;
-    }
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 5;
   }
   &__contact-information {
-    @media (min-width: 1280px) {
-      // line-height: 1.5;
-      margin: 0 20px;
-      flex-grow: 5;
-    }
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 5;
   }
   &__adress-information {
-    @media (min-width: 1280px) {
-      // line-height: 1.5;
-      margin: 0 20px;
-      flex-grow: 5;
-    }
+    // line-height: 1.5;
+    margin: 0 20px;
+    flex-grow: 5;
   }
-  &__contact-information i {
-    @media (min-width: 1280px) {
-      margin-right: 8px;
-    }
-  }
+  // &__contact-information i {
+  // }
   &__author {
-    @media (min-width: 1280px) {
-      // line-height: 1.5;
-      margin: 0 20px;
-      flex-grow: 1;
-      display: block;
-      text-decoration: none;
-      color: black;
-      opacity: 0.2;
-      align-self: center;
-    }
+    margin: 0 20px;
+    flex-grow: 1;
+    display: block;
+    text-decoration: none;
+    color: black;
+    opacity: 0.2;
+    align-self: center;
   }
   &__author:hover {
     opacity: 1;
@@ -55,5 +42,39 @@
 
   .footer-group-name {
     color: $maine-color-orange;
+  }
+}
+.fas {
+  margin-right: 5px;
+}
+.far {
+  margin-right: 5px;
+}
+@media (max-width: 360.99px) {
+  .footer-wrapper {
+    padding: 10px 30px;
+  }
+  .footer-group-name {
+    margin: 20px 0 0 0;
+  }
+}
+@media (max-width: 640.99px) {
+  .footer-wrapper {
+    padding: 10px 30px;
+  }
+  .footer-group-name {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 1024.99px) {
+  .footer-wrapper__author {
+    text-align: center;
+  }
+  .footer-wrapper {
+    padding: 10px 30px;
+  }
+  .footer-group-name {
+    margin: 20px 0 0 0;
   }
 }
