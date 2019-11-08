@@ -79,6 +79,7 @@
     justify-content: center;
   }
 }
+
 .phone-button {
   display: flex;
   justify-content: center;
@@ -92,6 +93,7 @@
   text-transform: uppercase;
 
   &__icon {
+    font-size: 2rem;
     display: flex;
     flex-grow: 1;
     margin: 0px 15px;
@@ -102,6 +104,7 @@
     text-transform: uppercase;
   }
 }
+
 .phone-number {
   display: flex;
   justify-content: center;
@@ -117,6 +120,7 @@
     margin: 0px 15px;
   }
 }
+
 @media (max-width: 1024.99px) {
   .wraper-contact-page {
     padding-left: 20px;

@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "webpack-cli": "^3.3.10"
   }
 }

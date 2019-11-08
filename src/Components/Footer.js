@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-wrapper__contact-information">
         <h2 className="footer-group-name">Kontakt:</h2>
         <p href="tel:+530900904">
-          <i className="fas fa-phone-alt"></i>Tel: 500-000-00
+          <i className="fas fa-phone-alt"></i>Tel: 503-900-904
         </p>
         <p>
           <i className="far fa-envelope"></i>e-mail: auto@serwis.com
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="footer-wrapper__adress-information">
         <h2 className="footer-group-name">Adres:</h2>
         <p>Ul. Rozrywka 1</p>
-        <p>Tarnów 31-419</p>
+        <p>Kraków 31-419</p>
 
         <p></p>
       </div>

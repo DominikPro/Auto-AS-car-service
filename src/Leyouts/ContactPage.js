@@ -23,14 +23,17 @@ const ContactPage = () => {
           <p className="information__subtitle">
             - Krótki opis co trapi twój samochód
           </p>
-          <p className="phone-number" href="Tel:+530900904">
+          <p className="phone-number">
             <i className=" phone-number__icon fas fa-phone-alt"></i>
-            <h3>tel: 530900904</h3>
+            <h3 href="tel:+48530900904">tel: 530900904</h3>
           </p>
-          <p className="phone-button" href="tel:+530900904">
-            <i className=" phone-button__icon fas fa-phone-alt"></i>
-            <p>Kliknij by zadzwonić</p>
-          </p>
+          <a href="tel:+48530900904" className="phone-button">
+            <i
+              href="tel:+48530900904"
+              className="phone-button__icon fas fa-phone-alt"
+            ></i>
+            <p href="tel:+48530900904">Kliknij by zadzwonić</p>
+          </a>
         </div>
       </div>
       <Footer />

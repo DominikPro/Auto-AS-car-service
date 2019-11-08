@@ -11,19 +11,11 @@ import "./css/maine.css";
 function App() {
   return (
     <Router>
-      <div className="app-wrapper  	">
+      <div className="app-wrapper">
         <Navigation />
-
-        {/* <header>
-          <Header />
-        </header> */}
-
-        <Route path="/" component={HomePage} exact />
-        <Route path="/contact" component={ContactPage} />
-        <Route path="/services" component={ServicesPage} />
-        {/* <div className="page-wrapper"> */}
-        {/* </div> */}
-        {/* <Footer /> */}
+        <Route path="/" exact component={HomePage} />
+        <Route path="/contact" exact component={ContactPage} />
+        <Route path="/services" exact component={ServicesPage} />
       </div>
     </Router>
   );

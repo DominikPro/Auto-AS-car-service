@@ -34,6 +34,9 @@
   background-color: $maine-color-green;
   text-transform: uppercase;
 }
+.phone-button-navigation a {
+  color: white;
+}
 
 @media (max-width: 799px) {
   .navigation {

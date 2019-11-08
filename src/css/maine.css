@@ -58,6 +58,10 @@ a:link {
   text-decoration: none;
 }
 
+a {
+  color: #35498e;
+}
+
 .footer-wrapper {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -237,6 +241,10 @@ code {
   color: white;
   background-color: #358e35;
   text-transform: uppercase;
+}
+
+.phone-button-navigation a {
+  color: white;
 }
 
 @media (max-width: 799px) {
@@ -684,6 +692,7 @@ code {
 }
 
 .phone-button__icon {
+  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

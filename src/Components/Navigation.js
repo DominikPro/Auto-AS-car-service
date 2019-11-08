@@ -21,7 +21,7 @@ class Navigation extends Component {
       <>
         <div className="navigation-wrapper">
           <div
-            onClick={this.handleClickHambyrger}
+            // onClick={this.handleClickHambyrger}
             className="logo animated flipInX delay-0.9s"
           >
             <NavLink to="/" exact>
@@ -81,10 +81,13 @@ class Navigation extends Component {
                 Kontakt
               </NavLink>
             </li>
-            <p className="phone-button-navigation" href="tel:+530900904">
-              <i className=" phone-button__icon fas fa-phone-alt"></i>
-              <p>Zadzwoń</p>
-            </p>
+            <a href="tel:+48530900904" className="phone-button-navigation">
+              <i
+                href="tel:+48530900904"
+                className="phone-button__icon fas fa-phone-alt"
+              ></i>
+              <p href="tel:+48530900904">Zadzwoń</p>
+            </a>
           </ul>
         </div>
       </>
