@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Footer from "./Components/Footer";
-// import Header from "./Components/Header";
+import { HashRouter } from "react-router-dom";
+
 import Navigation from "./Components/Navigation";
 import HomePage from "./Leyouts/HomePage";
 import ContactPage from "./Leyouts/ContactPage";
@@ -12,10 +12,12 @@ function App() {
   return (
     <Router>
       <div className="app-wrapper">
-        <Navigation />
-        <Route path="/" exact component={HomePage} />
-        <Route path="/contact" exact component={ContactPage} />
-        <Route path="/services" exact component={ServicesPage} />
+        <HashRouter>
+          <Navigation />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/contact" exact component={ContactPage} />
+          <Route path="/services" exact component={ServicesPage} />
+        </HashRouter>
       </div>
     </Router>
   );

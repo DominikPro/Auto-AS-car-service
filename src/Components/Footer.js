@@ -29,11 +29,7 @@ const Footer = () => {
 
         <p></p>
       </div>
-      <a
-        className="footer-wrapper__author"
-        // target="_blank"
-        href="http://proficz.com/"
-      >
+      <a className="footer-wrapper__author" href="http://proficz.com/">
         <h2>proficz.com</h2>
       </a>
     </div>

@@ -12,21 +12,23 @@ const ContactPage = () => {
             Informajce o nas
           </h1>
         </div>
+
         <Maps />
         <div className="information">
           <h1 className="information__title ">Umów wizytę</h1>
           <h3 className="information__subtitle">
             By usprawnić obsługę przygotuj:
           </h3>
-          <p className="information__subtitle">- Numer rejstracyjny pojazdu</p>
           <p className="information__subtitle">- Numer vin pojazdu</p>
+          <p className="information__subtitle">- Numer rejstracyjny pojazdu</p>
+
           <p className="information__subtitle">
             - Krótki opis co trapi twój samochód
           </p>
-          <p className="phone-number">
+          <div className="phone-number">
             <i className=" phone-number__icon fas fa-phone-alt"></i>
-            <h3 href="tel:+48530900904">tel: 530900904</h3>
-          </p>
+            <div href="tel:+48530900904">tel: 530900904</div>
+          </div>
           <a href="tel:+48530900904" className="phone-button">
             <i
               href="tel:+48530900904"

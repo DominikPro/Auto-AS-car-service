@@ -10,10 +10,10 @@ const AnyReactComponent = ({ text }) => (
 class Maps extends Component {
   static defaultProps = {
     center: {
-      lat: 50.09688,
+      lat: 50.09681,
       lng: 19.98124
     },
-    zoom: 16
+    zoom: 15
   };
 
   render() {
@@ -33,8 +33,3 @@ class Maps extends Component {
 }
 
 export default Maps;
-
-{
-  /* <AnyReactComponent lat={50.09688} lng={19.98124} text="AutoAS" /> */
-}
-// const apiKey = AIzaSyAf8ZXvJ0y2N7oU3l52dbirYdR6ZdMByyg;

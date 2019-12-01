@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../css/maine.css";
 
 const ServicesPage = () => {
@@ -25,13 +25,16 @@ const ServicesPage = () => {
           <i className="fas fa-car-alt icon__i"></i>
         </div>
 
-        <h2 className="product-box__title">Wymiana opon</h2>
-        <p className="product-box__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum
-          autem libero sequi impedit ducimus explicabo eum quo voluptatibus!
-          Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
-          sint ab.
-        </p>
+        <h2 className="product-box__title">Przegląd ogólny</h2>
+        <div className="product-box__description">
+          Kompleksowe przeglądy samochodu od <br />
+          <p className="price">59 pln.</p>
+        </div>
+        <div className="product-box__description">
+          Czyszczenie i dezynfekcja klimatyzacji preparatem Wurth od <br />
+          <p className="price">29 pln.</p>
+        </div>
+
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
         </NavLink>
@@ -39,15 +42,17 @@ const ServicesPage = () => {
 
       <div className="product-box">
         <div className="icon">
-          <i class="fas fa-allergies icon__i"></i>
+          <i className="fas fa-allergies icon__i"></i>
         </div>
-        <h2 className="product-box__title">Wymiana opon</h2>
-        <p className="product-box__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum
-          autem libero sequi impedit ducimus explicabo eum quo voluptatibus!
-          Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
-          sint ab.
-        </p>
+        <h2 className="product-box__title">Wymiana płynów </h2>
+        <div className="product-box__description">
+          Wymiana oleju z kompletem fitrów od <br />
+          <p className="price"> 29 pln.</p>
+        </div>
+        <div className="product-box__description">
+          Wymiana płynu chłodniczego od <br />
+          <p className="price"> 69 pln.</p>
+        </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
         </NavLink>
@@ -55,15 +60,17 @@ const ServicesPage = () => {
 
       <div className="product-box">
         <div className="icon">
-          <i class="fas fa-car-crash icon__i"></i>
+          <i className="fas fa-car-crash icon__i"></i>
         </div>
         <h2 className="product-box__title">Wymiana opon</h2>
-        <p className="product-box__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum
-          autem libero sequi impedit ducimus explicabo eum quo voluptatibus!
-          Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
-          sint ab.
-        </p>
+        <div className="product-box__description">
+          Wymiana kół wraz z wyważeniem od
+          <br /> <p className="price">39 pln.</p>
+        </div>
+        <div className="product-box__description">
+          Wymiana opon wraz z wyważeniem od <br />
+          <p className="price">49 pln.</p>
+        </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
         </NavLink>
@@ -71,30 +78,27 @@ const ServicesPage = () => {
 
       <div className="product-box">
         <div className="icon">
-          <i class="fas fa-car-side icon__i"></i>
+          <i className="fas fa-car-side icon__i"></i>
         </div>
-        <h2 className="product-box__title">Wymiana opon</h2>
-        <p className="product-box__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum
-          autem libero sequi impedit ducimus explicabo eum quo voluptatibus!
-          Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
-          sint ab.
-        </p>
+        <h2 className="product-box__title">Przegląd przed zakupem</h2>
+        <div className="product-box__description">
+          Nasi specjaliści z wieloletnim doświadczeniem wykonają dla Ciebie
+          Kompleksowy przegląd samochodu przed zakupem od
+          <br /> <p className="price"> 139 pln.</p>
+        </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
         </NavLink>
       </div>
       <div className="product-box">
         <div className="icon">
-          <i class="fas fa-tachometer-alt icon__i"></i>
+          <i className="fas fa-tachometer-alt icon__i"></i>
         </div>
-        <h2 className="product-box__title">Wymiana opon</h2>
-        <p className="product-box__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum
-          autem libero sequi impedit ducimus explicabo eum quo voluptatibus!
-          Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
-          sint ab.
-        </p>
+        <h2 className="product-box__title">Diagnosytka komputerowa</h2>
+        <div className="product-box__description">
+          Diagnostyka komputerowa wraz z kasowaniem błedów od <br />{" "}
+          <p className="price">39 pln.</p>
+        </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
         </NavLink>
@@ -104,12 +108,11 @@ const ServicesPage = () => {
         <div className="icon">
           <i className="fas fa-paper-plane icon__i"></i>
         </div>
-        <h2 className="product-box__title">Wymiana opon</h2>
+        <h2 className="product-box__title">Kompleksowy serwis</h2>
         <p className="product-box__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum
-          autem libero sequi impedit ducimus explicabo eum quo voluptatibus!
-          Deserunt, consequatur laudantium? Minus magni minima ipsa impedit iste
-          sint ab.
+          Świadczymy pełen zakres usług serwisowych. Dzięki specjaslistycznym
+          narzędziom oraz doświadczeniu szybko i trafnie diagnozujemy ustermi.
+          Wstępną wycene przygotujem już przez telefon.
         </p>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>

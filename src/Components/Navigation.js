@@ -1,6 +1,5 @@
-// import React from "react";
 import React, { Component } from "react";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../css/maine.css";
 import logoImg from "../img/logo.jpg";
 
@@ -13,17 +12,13 @@ class Navigation extends Component {
     this.setState(prevState => ({
       hamburgerMenuOpen: !prevState.hamburgerMenuOpen
     }));
-    console.log(this.state.hamburgerMenuOpen);
   };
 
   render() {
     return (
       <>
         <div className="navigation-wrapper">
-          <div
-            // onClick={this.handleClickHambyrger}
-            className="logo animated flipInX delay-0.9s"
-          >
+          <div className="logo animated flipInX delay-0.9s">
             <NavLink to="/" exact>
               <img
                 className="logo__img"
@@ -37,12 +32,12 @@ class Navigation extends Component {
               Serwis samochodów osobowy i dostawczych
             </h1>
           </div>
-          {/* onClick={handleClickHambyrger} */}
+
           <div
             onClick={this.handleClickHambyrger}
             className="hamburger-menu-button"
           >
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
           </div>
           <ul
             className={
@@ -81,6 +76,12 @@ class Navigation extends Component {
                 Kontakt
               </NavLink>
             </li>
+            <a
+              href="https://www.facebook.com/Autoas-Krak%C3%B3w-319645204799559/"
+              target="_blank"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
             <a href="tel:+48530900904" className="phone-button-navigation">
               <i
                 href="tel:+48530900904"
