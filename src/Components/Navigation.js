@@ -29,7 +29,7 @@ class Navigation extends Component {
             </NavLink>
 
             <h1 className="logo__motto animated flipInX delay-0.9s">
-              Serwis samochodów osobowy i dostawczych
+              Serwis samochodów osobowy i dostawczych wszystkich marek
             </h1>
           </div>
 
@@ -76,10 +76,7 @@ class Navigation extends Component {
                 Kontakt
               </NavLink>
             </li>
-            <a
-              href="https://www.facebook.com/Autoas-Krak%C3%B3w-319645204799559/"
-              target="_blank"
-            >
+            <a href="https://www.facebook.com/Autoas-Krak%C3%B3w-319645204799559/">
               <i className="fab fa-facebook"></i>
             </a>
             <a href="tel:+48530900904" className="phone-button-navigation">

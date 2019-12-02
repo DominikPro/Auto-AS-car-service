@@ -28,11 +28,11 @@ const ServicesPage = () => {
         <h2 className="product-box__title">Przegląd ogólny</h2>
         <div className="product-box__description">
           Kompleksowe przeglądy samochodu od <br />
-          <p className="price">59 pln.</p>
+          <p className="price">100 pln.</p>
         </div>
         <div className="product-box__description">
           Czyszczenie i dezynfekcja klimatyzacji preparatem Wurth od <br />
-          <p className="price">29 pln.</p>
+          <p className="price">50 pln.</p>
         </div>
 
         <NavLink className="navLink" to="/contact">
@@ -46,12 +46,12 @@ const ServicesPage = () => {
         </div>
         <h2 className="product-box__title">Wymiana płynów </h2>
         <div className="product-box__description">
-          Wymiana oleju z kompletem fitrów od <br />
-          <p className="price"> 29 pln.</p>
+          Wymiana oleju silnikowego od <br />
+          <p className="price"> 60 pln.</p>
         </div>
         <div className="product-box__description">
           Wymiana płynu chłodniczego od <br />
-          <p className="price"> 69 pln.</p>
+          <p className="price"> 80 pln.</p>
         </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
@@ -65,11 +65,11 @@ const ServicesPage = () => {
         <h2 className="product-box__title">Wymiana opon</h2>
         <div className="product-box__description">
           Wymiana kół wraz z wyważeniem od
-          <br /> <p className="price">39 pln.</p>
+          <br /> <p className="price">50 pln.</p>
         </div>
         <div className="product-box__description">
           Wymiana opon wraz z wyważeniem od <br />
-          <p className="price">49 pln.</p>
+          <p className="price">70 pln.</p>
         </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
@@ -84,7 +84,7 @@ const ServicesPage = () => {
         <div className="product-box__description">
           Nasi specjaliści z wieloletnim doświadczeniem wykonają dla Ciebie
           Kompleksowy przegląd samochodu przed zakupem od
-          <br /> <p className="price"> 139 pln.</p>
+          <br /> <p className="price"> 140 pln.</p>
         </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
@@ -97,7 +97,7 @@ const ServicesPage = () => {
         <h2 className="product-box__title">Diagnosytka komputerowa</h2>
         <div className="product-box__description">
           Diagnostyka komputerowa wraz z kasowaniem błedów od <br />{" "}
-          <p className="price">39 pln.</p>
+          <p className="price"> 50 pln.</p>
         </div>
         <NavLink className="navLink" to="/contact">
           <button className="product-box__button">Umów wizytę</button>
@@ -111,7 +111,7 @@ const ServicesPage = () => {
         <h2 className="product-box__title">Kompleksowy serwis</h2>
         <p className="product-box__description">
           Świadczymy pełen zakres usług serwisowych. Dzięki specjaslistycznym
-          narzędziom oraz doświadczeniu szybko i trafnie diagnozujemy ustermi.
+          narzędziom oraz doświadczeniu szybko i trafnie diagnozujemy usterki.
           Wstępną wycene przygotujem już przez telefon.
         </p>
         <NavLink className="navLink" to="/contact">
