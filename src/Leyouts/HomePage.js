@@ -1,13 +1,13 @@
 import React from "react";
 import "../css/maine.css";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logoFordPng from "../img/logoFordPng.png";
 
 const HomePage = () => {
   return (
     <>
       <h1 className="logo-motto-home-page">
-        Serwis samochodów osobowy i dostawczych
+        Serwis samochodów osobowy i dostawczych wszystkich marek
       </h1>
       <div className="home-page-wraper ">
         <div className="home-page-wraper__shadow-bacground"></div>

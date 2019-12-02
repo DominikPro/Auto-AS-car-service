@@ -60,12 +60,14 @@
   &__title {
     display: flex;
     align-self: flex-start;
+    text-align: center;
   }
 
   &__description {
     text-align: center;
     display: block;
     padding: 15px;
+    font-size: 2rem;
   }
   &__button {
     margin-top: 10px;
@@ -85,6 +87,13 @@
     background-color: #358e35;
   }
 }
+.price {
+  margin-top: 5px;
+  color: $maine-color;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
 .icon {
   transform: translateY(-30px);
   margin: 0px 80px;

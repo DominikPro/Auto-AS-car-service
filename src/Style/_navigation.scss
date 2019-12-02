@@ -34,7 +34,21 @@
   background-color: $maine-color-green;
   text-transform: uppercase;
 }
-
+.phone-button-navigation a {
+  color: white;
+}
+.fa-facebook {
+  font-size: 3rem;
+  color: $maine-color;
+  padding: 3px 10px;
+  transition: 0.1s;
+}
+.fa-facebook:hover {
+  cursor: pointer;
+  color: $maine-color-orange;
+  background-color: $maine-color;
+  border-radius: 5px;
+}
 @media (max-width: 799px) {
   .navigation {
     font-size: 2rem;

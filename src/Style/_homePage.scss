@@ -96,6 +96,7 @@
 }
 @media (max-width: 640.99px) {
   .titleHomPage {
+    top: 0px;
     width: 100%;
   }
   .titleHomPage__button-call {
@@ -106,6 +107,7 @@
   .titleHomPage {
     width: 100%;
     left: 0;
+    top: 0px;
   }
   .titleHomPage__button-call {
     margin: 25px auto;
